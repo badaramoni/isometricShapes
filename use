@@ -1,0 +1,10 @@
+ IsometricRoundedCube(
+                        width = 4f,
+                        depth = 4f,
+                        height = animatedHeight,  // <-- the pressed/unpressed height
+                        angleDegrees = 30f,
+                        topCornerRadiusPx = 0f,
+                        topColor = animatedTopColor,
+                        sideColor = Color.Black,
+                        modifier = Modifier.fillMaxSize()
+                    )
